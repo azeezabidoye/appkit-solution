@@ -7,3 +7,5 @@ export const projectId = process.env.NEXT_PUBLIC_PROJECT_ID;
 if (!projectId) {
   throw new Error("Project Id is not defined");
 }
+
+export const networks = [mainnet, arbitrum];
