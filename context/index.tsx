@@ -56,3 +56,5 @@ function ContextProvider({
     </WagmiProvider>
   );
 }
+
+export default ContextProvider;
