@@ -13,3 +13,10 @@ const queryClient = new QueryClient();
 if (!projectId) {
   throw new Error("Project Id is not defined");
 }
+
+const metadata = {
+  name: "Appkit Solution",
+  description: "Appkit Solution - EVM",
+  url: "http://appkitsolution.com",
+  icons: ["https://avatars.githubusercontent.com/u/37784886"],
+};
