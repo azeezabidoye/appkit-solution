@@ -20,3 +20,17 @@ const metadata = {
   url: "http://appkitsolution.com",
   icons: ["https://avatars.githubusercontent.com/u/37784886"],
 };
+
+const modal = createAppKit({
+  adapters: [wagmiAdapter],
+  projectId,
+  networks: [mainnet, arbitrum],
+  defaultNetwork: mainnet,
+  features: {
+    analytics: true,
+    email: true,
+    emailShowWallets: true,
+    socials: ["google", "x", "github", "discord", "farcaster"],
+  },
+  themeMode: "light",
+});
