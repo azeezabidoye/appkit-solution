@@ -9,3 +9,7 @@ import React, { type ReactNode } from "react";
 import { cookieToInitialState, WagmiProvider, type Config } from "wagmi";
 
 const queryClient = new QueryClient();
+
+if (!projectId) {
+  throw new Error("Project Id is not defined");
+}
