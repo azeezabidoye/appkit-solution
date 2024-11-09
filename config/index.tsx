@@ -9,3 +9,12 @@ if (!projectId) {
 }
 
 export const networks = [mainnet, arbitrum];
+
+export const wagmiAdapter = new WagmiAdapter({
+  storage: createStorage({
+    storage: cookieStorage,
+  }),
+  ssr: true,
+  networks,
+  projectId,
+});
