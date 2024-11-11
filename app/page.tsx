@@ -9,7 +9,7 @@ export default function Home() {
     <main className="min-h-screen px-8 py-0 pb-12 flex-1 flex flex-col items-center">
       <header className="w-full py-4 flex justify-between items-center">
         <div className="flex items-center">
-          <img src="/reown-logo.png" alt="logo" className="w-35 h-10 mr-2" />
+          {/* <img src="/reown-logo.png" alt="logo" className="w-35 h-10 mr-2" /> */}
           <div className="hidden sm:inline text-xl font-bold">
             Reown - Appkit EVM
           </div>
